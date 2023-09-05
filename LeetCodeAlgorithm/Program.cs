@@ -32,9 +32,13 @@ int[] nums = { 1, 2, 3, 1 };
 #endregion
 
 #region LongestCommonPrefix
-string[] names = { "ab", "a" };
+//string[] names = { "ab", "a" };
 
-LongestCommonPrefix commonPrefix = new LongestCommonPrefix();
-Console.WriteLine(commonPrefix.Prefix(names));
+//LongestCommonPrefix commonPrefix = new LongestCommonPrefix();
+//Console.WriteLine(commonPrefix.Prefix(names));
 #endregion
 
+#region ValidParentheses
+Validparentheses validparentheses = new Validparentheses();
+Console.WriteLine(validparentheses.IsValid("()"));
+#endregion
